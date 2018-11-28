@@ -84,7 +84,7 @@ def drawing(color,pen):
     squirtle.forward(100)
 
     yurtle = rg.SimpleTurtle()
-    yurtle.pen = rg.Pen(color, 2)
+    yurtle.pen = rg.Pen(color, 5)
 
     yurtle.backward(100)
 
