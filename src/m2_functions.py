@@ -79,12 +79,12 @@ def drawing(color,pen):
     window = rg.TurtleWindow()
 
     squirtle = rg.SimpleTurtle()
-    squirtle.pen = rg.Pen('green',5)
+    squirtle.pen = rg.Pen('green',pen)
 
     squirtle.forward(100)
 
     yurtle = rg.SimpleTurtle()
-    yurtle.pen = rg.Pen(color, pen)
+    yurtle.pen = rg.Pen(color, 2)
 
     yurtle.backward(100)
 
